@@ -109,8 +109,9 @@ const News = () => {
             </div>
           </div>
           <div className="py-3 grid md:grid-cols-2  grid-cols-1 mx-auto xl:gap-6 lg:gap-4 md:gap-3 gap-2">
-            {dataDummy.slice(0, visibleProjects).map((data, index) => (
+            {dataDummy.slice(0, visibleProjects).map((data,index) => (
               <NewsCard
+              key={index}
                 img={data.img}
                 title={data.title}
                 subTitle={data.subTitle}

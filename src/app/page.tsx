@@ -5,7 +5,7 @@ import NewsAlert from "@/components/home/NewsAlert";
 import React from "react";
 import { motion, useSpring, useScroll } from "motion/react";
 
-const page = () => {
+const Page = () => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -38,4 +38,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

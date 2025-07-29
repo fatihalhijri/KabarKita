@@ -7,7 +7,7 @@ interface Props {
   title: string;
 }
 
-const SideNews: React.FC<Props> = ({ img, title }: any) => {
+const SideNews: React.FC<Props> = ({ img, title }) => {
   return (
     <div>
       <div className="flex justify-between items-center">

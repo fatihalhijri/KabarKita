@@ -30,9 +30,6 @@ const Navbar = () => {
   const navOpenStyle = navSticky
     ? "translate-y-0 transition-all duration-300"
     : "translate-y-[-100%] transition-all duration-300";
-  const openNav = isOpen ? "translate-y-0" : "translate-y-[-100%]";
-
-
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {

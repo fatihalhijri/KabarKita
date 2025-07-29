@@ -15,9 +15,6 @@ const Contact = () => {
     email: "",
     pesan: "",
   });
-  const handleClick = () => {
-    window.open("https://wa.me/6287878991905", "_blank");
-  };
 
   // Fungsi untuk menampilkan notifikasi saat berhasil
   const showSuccessNotification = () => {

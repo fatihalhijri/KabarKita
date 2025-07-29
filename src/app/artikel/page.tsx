@@ -2,9 +2,9 @@
 import LandingArtikel from "@/components/artikel/Landing";
 import React from "react";
 
-import { motion, useSpring, useScroll } from "motion/react";
+import { motion, useSpring, useScroll } from "framer-motion";
 
-const page = () => {
+const Page = () => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -25,26 +25,13 @@ const page = () => {
           right: 0,
           height: 4,
           originX: 0,
-          backgroundColor: "#ff0088",
+          backgroundColor: "#C31815",
         }}
-        animate={{
-          background: [
-            "linear-gradient(90deg, #ff0088, #ffcc00)",
-            "linear-gradient(90deg, #ffcc00, #00ffcc)",
-            "linear-gradient(90deg, #00ffcc, #0099ff)",
-            "linear-gradient(90deg, #0099ff, #ff0088)",
-            "linear-gradient(90deg, #ff0088, #ffcc00)",
-          ],
-        }}
-        transition={{
-          repeat: Infinity,
-          duration: 5,
-          ease: "linear",
-        }}
+        
       />
       <LandingArtikel></LandingArtikel>
     </div>
   );
 };
 
-export default page;
+export default Page;

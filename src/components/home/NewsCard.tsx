@@ -23,7 +23,7 @@ const NewsCard: React.FC<propsType> = ({
   suka,
   upload,
   simpan,
-}: any) => {
+}) => {
   return (
     <div>
       <div className="border border-gray-300 w-full max-w-[440px]  shadow-md flex flex-col items-center  justify-between ">

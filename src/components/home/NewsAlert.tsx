@@ -21,7 +21,7 @@ const NewsAlert = () => {
 
           <div>
             <p className="text-white lg:text-lg md:text-base text-sm md:font-semibold font-medium">
-              Kanye West says he's running for president in 2020.
+              Kanye West says he is running for president in 2020.
             </p>
           </div>
         </div>
