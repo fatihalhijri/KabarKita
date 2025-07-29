@@ -1,7 +1,6 @@
 import {
   Archive,
   Heart,
-  MessageCircle,
   MessageSquare,
   Upload,
 } from "lucide-react";

@@ -1,6 +1,5 @@
 "use client";
 
-import { Globe, Heart } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
@@ -27,15 +26,7 @@ const BefNavbar = () => {
   const stickyStyle = navSticky
     ? " backdrop-blur-sm shadow-black/20 shadow-sm transition-all duration-500"
     : "";
-
-  const navOpenStyle = navSticky ? "translate-y-0" : "translate-y-[-100%]";
-
-  const handleOutsideClick = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (e.target === e.currentTarget) {
-      setIsOpen(false);
-    }
-  };
-
+    
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       // Pastikan elemen yang diklik bukan bagian dari navbar

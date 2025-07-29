@@ -1,20 +1,11 @@
 import {
-  Archive,
   CalendarDays,
-  CircleAlert,
-  Heart,
-  LucideCircleDot,
-  ShoppingBag,
   Star,
-  Upload,
 } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import NewsCard from "./NewsCard";
 import SideNews from "./SideNews";
-import { title } from "process";
-import Picks from "./Picks";
 
 const News = () => {
   const dataDummy = [

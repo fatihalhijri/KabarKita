@@ -28,21 +28,6 @@ const PicksComponent = ({ img, user, role }: Props) => {
               <p className="text-base">{role}</p>
             </div>
           </div>
-          {/* <div className="flex flex-row items-center justify-center gap-4 w-full overflow-hidden max-h-48  ">
-            <Image
-              alt={user}
-              src={img}
-              width={300}
-              height={300}
-              className=" h-full md:w-1/3 object-contain cursor-pointer"
-            />
-            <div className="flex flex-col  justify-between ">
-              <h2 className="text-secondary text-2xl lg:text-lg md:text-base  md:font-semibold font-medium">
-                {user}
-              </h2>
-              <p className="text-base">{role}</p>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>

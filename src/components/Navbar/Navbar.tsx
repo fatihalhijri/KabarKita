@@ -1,6 +1,5 @@
 "use client";
 
-import { Globe, Heart } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
@@ -33,11 +32,7 @@ const Navbar = () => {
     : "translate-y-[-100%] transition-all duration-300";
   const openNav = isOpen ? "translate-y-0" : "translate-y-[-100%]";
 
-  const handleOutsideClick = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (e.target === e.currentTarget) {
-      setIsOpen(false);
-    }
-  };
+
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {

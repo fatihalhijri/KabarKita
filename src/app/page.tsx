@@ -2,7 +2,6 @@
 import LandingPage from "@/components/home/landing";
 import News from "@/components/home/News";
 import NewsAlert from "@/components/home/NewsAlert";
-import Picks from "@/components/home/Picks";
 import React from "react";
 import { motion, useSpring, useScroll } from "motion/react";
 
@@ -35,9 +34,6 @@ const page = () => {
       <LandingPage />
       <NewsAlert />
       <News />
-      {/* <Picks /> */}
-
-      {/* <div className="h-screen"></div> */}
     </div>
   );
 };
