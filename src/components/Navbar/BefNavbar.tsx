@@ -99,7 +99,7 @@ const BefNavbar = () => {
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-between ">
             <div className="flex-shrink-0">
               <Link href="/">
-                <p className="text-secondary text-xl font-bold font-serif navbar__link relative ">
+                <p className="text-secondary text-xl font-bold font-serif relative ">
                   Kabar
                   <span className="text-merah">Kita</span>
                 </p>
@@ -107,18 +107,18 @@ const BefNavbar = () => {
             </div>
             <div className="hidden sm:block sm:ml-6">
               <div className="flex md:space-x-4">
-                <Link href="/">
-                  <p className="text-black  px-3 py-2 rounded-md md:text-sm text-xs md:font-medium ">
+                <Link href="/" className="px-3 py-2 rounded-md">
+                  <p className="navbar__link relative text-black md:text-sm text-xs md:font-medium ">
                     Beranda
                   </p>
                 </Link>
-                <Link href="/artikel">
-                  <p className="text-black  px-3 py-2 rounded-md md:text-sm text-xs md:font-medium">
+                <Link href="/artikel" className="px-3 py-2 rounded-md">
+                  <p className="navbar__link relative text-black md:text-sm text-xs md:font-medium">
                     Artikel
                   </p>
                 </Link>
-                <Link href="/">
-                  <p className="text-black  pl-3 py-2 rounded-md md:text-sm text-xs md:font-medium">
+                <Link href="/" className="pl-3 py-2 rounded-md">
+                  <p className="navbar__link relative text-black md:text-sm text-xs md:font-medium">
                     Buku Koleksi
                   </p>
                 </Link>
@@ -154,3 +154,6 @@ const BefNavbar = () => {
 };
 
 export default BefNavbar;
+
+
+
