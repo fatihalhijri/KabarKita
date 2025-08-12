@@ -41,7 +41,7 @@ const LandingPage = () => {
               </div>
               <div className="flex flex-col justify-center items-center">
                 <h2 className="lg:font-bold font-semibold  text-secondary text-left lg:text-4xl text-3xl ">
-                  Cake's wowowowowo meme reflects coronavirus absurdity in a world where
+                  Cake wowowowowo meme reflects coronavirus absurdity in a world where
                   nothing is what it seems
                 </h2>
                 <div className="md:w-56  lg:h-1/4  lg:w-1/4  lg:hidden flex  justify-center items-center ">
