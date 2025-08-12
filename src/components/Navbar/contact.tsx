@@ -109,7 +109,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   disabled={state.submitting}
-                  className="px-4 w-36 py-2 bg-merah rounded-md text-center"
+                  className="px-4 w-36 py-2 bg-red-600 rounded-md text-center"
                 >
                   <p className="font-semibold text-base text-white">
                     {state.submitting ? "Mengirim..." : "Kirim"}

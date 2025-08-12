@@ -11,7 +11,7 @@ import React from "react";
 const LandingArtikel = () => {
   return (
     <div className="w-full h-full ">
-      <div className="md:flex hidden h-1/2 bg-gray-100 w-full absolute -z-10"></div>
+      <div className="md:flex hidden h-1/2 bg-gray-700 w-full absolute -z-10"></div>
       <div className="flex md:hidden  bg-gray-700 w-full h-[30vh]">
         <div className="flex md:hidden justify-center items-center px-6 py-5">
           <h2 className="lg:text-4xl text-2xl  text-white font-semibold font-serif leading-snug">

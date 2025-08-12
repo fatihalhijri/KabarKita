@@ -27,13 +27,13 @@ const LandingPage = () => {
                   <User />
                   <div className="relative">
                     <Heart />
-                    <div className="bg-merah rounded-full absolute top-0 right-0 w-[18px] h-[18px] text-[12px] text-white grid place-items-center translate-x-1 -translate-y-1">
+                    <div className="bg-red-600 rounded-full absolute top-0 right-0 w-[18px] h-[18px] text-[12px] text-white grid place-items-center translate-x-1 -translate-y-1">
                       0
                     </div>
                   </div>
                   <div className="relative">
                     <ShoppingBag />
-                    <div className="bg-merah rounded-full absolute top-0 right-0 w-[18px] h-[18px] text-[12px] text-white grid place-items-center translate-x-1 -translate-y-1">
+                    <div className="bg-red-600 rounded-full absolute top-0 right-0 w-[18px] h-[18px] text-[12px] text-white grid place-items-center translate-x-1 -translate-y-1">
                       0
                     </div>
                   </div>
@@ -41,7 +41,7 @@ const LandingPage = () => {
               </div>
               <div className="flex flex-col justify-center items-center">
                 <h2 className="lg:font-bold font-semibold  text-secondary text-left lg:text-4xl text-3xl ">
-                  Cake wowowowowo meme reflects coronavirus absurdity in a world where
+                  Cake meme reflects coronavirus absurdity in a world where
                   nothing is what it seems
                 </h2>
                 <div className="md:w-56  lg:h-1/4  lg:w-1/4  lg:hidden flex  justify-center items-center ">

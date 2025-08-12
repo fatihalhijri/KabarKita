@@ -4,7 +4,7 @@ import React from "react";
 const NewsAlert = () => {
   return (
     <div className="">
-      <div className="w-full flex items-center md:justify-center justify-start py-5  px-6 md:px-12 lg:px-16 xl:px-36 bg-merah">
+      <div className="w-full flex items-center md:justify-center justify-start py-5  px-6 md:px-12 lg:px-16 xl:px-36 bg-gray-700">
         <div className="flex flex-col md:flex-row justify-start items-start md:items-center gap-3 ">
           <div className="flex flex-row items-center gap-4">
             <Link href={'/artikel'} >

@@ -15,7 +15,7 @@ const SideNews: React.FC<Props> = ({ img, title }) => {
           <h2 className="font-bold text-lg text-merah">Live</h2>
           <LucideCircleDot className="text-merah " height={18} width={18} />
         </div>
-        <div className="px-4 w-36 md:py-2 py-1 bg-merah rounded-full text-center animate-pulse">
+        <div className="px-4 w-36 md:py-2 py-1 bg-red-600 rounded-full text-center animate-pulse">
           <p className="font-semibold md:text-sm text-white text-xs">Join Now</p>
         </div>
       </div>

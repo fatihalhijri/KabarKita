@@ -151,7 +151,7 @@ const News = () => {
                   className="w-full py-[0.7rem]  border border-black/20  text-black   px-4"
                 />
               </div>
-              <div className="px-4 w-36 py-2 bg-merah rounded-md text-center ">
+              <div className="px-4 w-36 py-2 bg-red-600 rounded-md text-center ">
                 <p className="font-semibold md:text-base text-sm text-white">Join Now</p>
               </div>
             </div>
@@ -184,7 +184,7 @@ const News = () => {
                   className="w-full py-[0.7rem]  border border-black/20  text-black   px-4"
                 />
               </div>
-              <div className="px-4 w-36 py-2 bg-merah rounded-md text-center ">
+              <div className="px-4 w-36 py-2 bg-red-600 rounded-md text-center ">
                 <p className="font-semibold text-base text-white">Join Now</p>
               </div>
             </div>
